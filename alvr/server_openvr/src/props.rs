@@ -310,7 +310,7 @@ pub extern "C" fn set_device_openvr_props(instance_ptr: *mut c_void, device_id: 
                 set_icons("{vrlink}/icons/headset_pico4");
             }
             HeadsetEmulationMode::Vive => {
-                set_prop(TrackingSystemNameString, "Vive Tracker");
+                set_prop(TrackingSystemNameString, "lighthouse");
                 set_prop(ModelNumberString, "ALVR driver server");
                 set_prop(ManufacturerNameString, "HTC");
                 set_prop(RenderModelNameString, "generic_hmd");
